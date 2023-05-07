@@ -1,0 +1,375 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.glavni{
+    width: 100%;
+    height: 1400px;
+    background-image: url(http://ziyonet.uz/static/img/new_ziyonet/season-changes/default.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.tilvakirish{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.til{
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.til select{
+    width: 100px;
+    height: 50px;
+    border-radius: 45px;
+    background-color: aquamarine;
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+.kirish{
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.kirish button{
+    width: 120px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: aquamarine;
+    color: white;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+
+
+}
+.ziyonet{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+.oxirgi_k{
+    width: 100%;
+    height: 1100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;   
+}
+
+.bir{
+    width: 240px;
+    height: 240px;
+    display: flex;
+    background-color: rgb(255, 251, 0);
+    border-radius: 150px;
+    justify-content: center;
+    align-items: center;
+    transition: 0.8s;
+}
+.uch{
+    width: 240px;
+    height: 240px;
+    display: flex;
+    background-color: rgb(255, 188, 2);
+    border-radius: 150px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    transition: 0.8s;
+}
+.turt{
+    width: 240px;
+    height: 240px;
+    display: flex;
+    background-color: rgb(250, 7, 80);
+    border-radius: 150px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    transition: 0.8s;
+}
+.besh{
+    width: 240px;
+    height: 240px;
+    display: flex;
+    background-color: rgb(255, 0, 13);
+    border-radius: 150px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    transition: 0.8s;
+}
+.olti{
+    width: 240px;
+    height: 240px;
+    display: flex;
+    background-color: rgb(114, 11, 54);
+    border-radius: 150px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    transition: 0.8s;
+}
+.yetti{
+    width: 240px;
+    height: 240px;
+    display: flex;
+    background-color: rgb(7, 243, 18);
+    border-radius: 150px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    transition: 0.8s;
+}
+.sakkiz{
+    width: 240px;
+    height: 240px;
+    display: flex;
+    background-color: rgb(11, 202, 250);
+    border-radius: 150px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    transition: 0.8s;
+}
+.tuqqiz{
+    width: 240px;
+    height: 240px;
+    display: flex;
+    background-color: rgb(28, 16, 202);
+    border-radius: 150px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    transition: 0.8s;
+}
+.un{
+    width: 240px;
+    height: 240px;
+    display: flex;
+    background-color: rgb(99, 163, 110);
+    border-radius: 150px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    transition: 0.8s;
+}
+.unbir{
+    width: 240px;
+    height: 240px;
+    display: flex;
+    background-color: rgb(2, 24, 4);
+    border-radius: 150px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    transition: 0.8s;
+}
+.unikki{
+    width: 240px;
+    height: 240px;
+    display: flex;
+    background-color: rgb(99, 88, 88);
+    border-radius: 150px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    transition: 0.8s;
+}
+.bir .kichkina{
+    width: 135px;
+    height:135px;
+    display: flex;
+    background-color: white;
+    border-radius: 80px;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    color: yellow;
+}
+.ikki .kichkina{
+    width: 135px;
+    height:135px;
+    display: flex;
+    background-color: white;
+    border-radius: 80px;
+    justify-content: center;
+    align-items: center;
+}
+.uch .kichkina{
+    width: 135px;
+    height:135px;
+    display: flex;
+    background-color: white;
+    border-radius: 80px;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    color: rgb(206, 170, 10);
+}
+.turt .kichkina{
+    width: 135px;
+    height:135px;
+    display: flex;
+    background-color: white;
+    border-radius: 80px;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    color: rgb(201, 21, 147);
+}
+.besh .kichkina{
+    width: 135px;
+    height:135px;
+    display: flex;
+    background-color: white;
+    border-radius: 80px;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    color: rgb(214, 18, 27);
+}
+.olti .kichkina{
+    width: 135px;
+    height:135px;
+    display: flex;
+    background-color: white;
+    border-radius: 80px;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    color: rgb(105, 8, 45);
+}
+.yetti .kichkina{
+    width: 135px;
+    height:135px;
+    display: flex;
+    background-color: white;
+    border-radius: 80px;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    color: rgb(28, 230, 21);
+}
+.sakkiz .kichkina{
+    width: 135px;
+    height:135px;
+    display: flex;
+    background-color: white;
+    border-radius: 80px;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    color: rgb(39, 224, 209);
+}
+.tuqqiz .kichkina{
+    width: 135px;
+    height:135px;
+    display: flex;
+    background-color: white;
+    border-radius: 80px;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    color: rgb(73, 39, 224);
+}
+.un .kichkina{
+    width: 135px;
+    height:135px;
+    display: flex;
+    background-color: white;
+    border-radius: 80px;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    color: rgb(129, 202, 141);
+}
+.unbir .kichkina{
+    width: 135px;
+    height:135px;
+    display: flex;
+    background-color: white;
+    border-radius: 80px;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    color: rgb(6, 43, 12);
+}
+.unikki .kichkina{
+    width: 135px;
+    height:135px;
+    display: flex;
+    background-color: white;
+    border-radius: 80px;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    color: rgb(114, 93, 93);
+}
+
+.yozuv{
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    height: 80px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 300px;
+}
+.bir:hover{
+    transform: translateY(-20px);
+}
+.uch:hover{
+    transform: translateY(-20px);
+}
+.turt:hover{
+    transform: translateY(-20px);
+}
+.besh:hover{
+    transform: translateY(-20px);
+}
+.olti:hover{
+    transform: translateY(-20px);
+}
+.yetti:hover{
+    transform: translateY(-20px);
+}
+.sakkiz:hover{
+    transform: translateY(-20px);
+}
+.tuqqiz:hover{
+    transform: translateY(-20px);
+}
+.un:hover{
+    transform: translateY(-20px);
+}
+.unbir:hover{
+    transform: translateY(-20px);
+}
+.unikki:hover{
+    transform: translateY(-20px);
+}
+.TEPA{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    margin-left: 700px;
+    margin-top: 350px;
+    color: rgb(233, 15, 33);
+}
